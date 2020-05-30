@@ -52,3 +52,6 @@ CONFIGURAÇÕES (AVANÇADO):
 INSTALAÇÃO DO COMPOSER:
  - https://getcomposer.org/Composer-Setup.exe
  - Basta dar next até onde aponta o caminho do php.exe, selecione o arquivo php.exe e continue a instalação.	  
+
+INSTALAÇÃO DO PACOTE DE PERFORMANCE:
+https://github.com/bvanhoekelen/performance

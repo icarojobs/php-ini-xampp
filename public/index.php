@@ -15,7 +15,7 @@ use Performance\Performance;
 Performance::point();
 
 // Run task A
-$size = 10000000;
+$size = 1000000;
 $users = [];
 
 for ($i = 0; $i < $size; $i++) {
