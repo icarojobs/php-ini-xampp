@@ -16,9 +16,12 @@ The best settings to work with XAMPP, opcache and XDebug on Windows 10
 	
 
 CONFIGURAÇÕES (AVANÇADO):	
-    - Descompacte o arquivo em php_envs/php73	
+    
+	- Descompacte o arquivo em php_envs/php73	
+	
 	- Aponte o PATH do sistema para o diretório do php.exe
-    - Após extrair, copie o arquivo php.ini-development para php.ini
+    
+	- Após extrair, copie o arquivo php.ini-development para php.ini
 	  - alterar memory_limit=2048M
 	  - alterar post_max_size=40M
 	  - alterar upload_max_filesize=40M
@@ -31,10 +34,16 @@ CONFIGURAÇÕES (AVANÇADO):
 	  - (opcional) Ative o opcache
 	  - (opcional) Ative o xdebug
 	  - (recomendado) Sempre trabalhe com vhosts C:\xampp\apache\conf\extra\httpd-vhosts.conf :
+		
+		
 		<VirtualHost *:80>
 			DocumentRoot "C:/xampp/htdocs/php-ini-xampp/public"
 			ServerName phpinixampp.mob
 		</VirtualHost>
+		
+		
 		alterar em C:\Windows\System32\drivers\etc\hosts :
 		127.0.0.1 phpinixampp.mob
-	  arquivo php.ini exemplo: https://github.com/icarojobs/php-ini-xampp
+	  
+	  
+	  arquivo php.ini exemplo: https://raw.githubusercontent.com/icarojobs/php-ini-xampp/master/conf/php.ini
