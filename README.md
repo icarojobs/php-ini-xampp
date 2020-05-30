@@ -47,3 +47,8 @@ CONFIGURAÇÕES (AVANÇADO):
 	  
 	  
 	  arquivo php.ini exemplo: https://raw.githubusercontent.com/icarojobs/php-ini-xampp/master/conf/php.ini
+
+
+INSTALAÇÃO DO COMPOSER:
+ - https://getcomposer.org/Composer-Setup.exe
+ - Basta dar next até onde aponta o caminho do php.exe, selecione o arquivo php.exe e continue a instalação.	  
